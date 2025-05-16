@@ -1,6 +1,6 @@
 package com.praktikum.users;
 
-public abstract class User { //abstract
+public abstract class User {
     private String nama;
     private String nim;
 
@@ -29,5 +29,5 @@ public abstract class User { //abstract
         System.out.println("NIM: " + nim);
     }
 
-    public abstract void displayAppMenu(); //abstract method
+    public abstract void displayAppMenu();
 }

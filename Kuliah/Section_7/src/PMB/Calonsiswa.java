@@ -12,7 +12,7 @@ public class Calonsiswa {
 
         public Calonsiswa(String namaDepan, String namaBelakang, String [] pilihanJurusan){
             setNama(namaDepan, namaBelakang);
-            setPilihanJurusan(pilihanJurusan);
+//            setPilihanJurusan(pilihanJurusan);
         }
         public Calonsiswa(String namaDepan, String namaBelakang, String pilihanJurusan1, String pilihanJurusan2, String pilihanJurusan3){
             setNama(namaDepan, namaBelakang);
@@ -31,7 +31,7 @@ public class Calonsiswa {
         }
 
 
-         public void setJalurMasuk(){
+        public void setJalurMasuk(){
             this.jalurMasuk = jalurMasuk;
         }
         public String[] getJalurMasuk(){
@@ -50,6 +50,14 @@ public class Calonsiswa {
         }
         public String getAlamat(){
             return alamat_asal;
+        }
+
+        public void printMahasiswa(){
+            System.out.println("Nama mahasiswa :" + this.nama);
+            for(String i: this.pilihanJurusan){
+                System.out.println("Pilihan jurusan di UMM: " + i);
+            }
+//            System.out.println("Pilihan jurusan: " + this.pilihanJurusan);
         }
 
 }
