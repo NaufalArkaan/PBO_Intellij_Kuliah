@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0468b95b-baea-444a-8cdf-73186b1c0d85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/praktikum/data/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kuliah/Section_7/src/PMB/Calonsiswa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kuliah/Section_7/src/PMB/Calonsiswa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kuliah/Section_7/src/PMB/DriverPMB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kuliah/Section_7/src/PMB/DriverPMB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tugas_Modul4/src/com/praktikum/users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tugas_Modul4/src/com/praktikum/users/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/praktikum/data/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/praktikum/data/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/praktikum/main/LoginSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/praktikum/main/LoginSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/praktikum/users/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/praktikum/users/Admin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +32,12 @@
     &quot;assignee&quot;: &quot;NaufalArkaan&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/NaufalArkaan/PBO_Intellij_Kuliah.git",
-    "accountId": "0cf7c734-5805-475b-b012-0101953902e9"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/NaufalArkaan/PBO_Intellij_Kuliah.git&quot;,
+    &quot;accountId&quot;: &quot;0cf7c734-5805-475b-b012-0101953902e9&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -55,7 +55,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Naufal/OneDrive/Desktop/PBO_KULIAH/Latihan/Tugas_Modul5",
+    "last_opened_file_path": "C:/Users/Naufal/OneDrive/Desktop/pbo_b_nopal/Tugas/Tugas_PBO",
     "onboarding.tips.debug.path": "C:/Users/Naufal/OneDrive/Desktop/pbo_b_nopal/Tugas/Tugas_PBO/src/Main.java"
   }
 }]]></component>
