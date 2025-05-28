@@ -46,10 +46,10 @@ public class LoginPane extends VBox {
             }
 
             if (role.equals("Mahasiswa")) {
-                if (username.equals("Naufal Arkaan") && password.equals("202410370110020")) {
+                if ( mainApp.checkMahasiswaLogin(username, password) ) {
                     mainApp.showMahasiswaDashboard(username);
                 } else {
-                    messageLabel.setText("Username atau password salah!");
+                    messageLabel.setText("Username atau NIM salah!");
                 }
             } else if (role.equals("Admin")) {
                 if (username.equals("Admin020") && password.equals("Password020")) {

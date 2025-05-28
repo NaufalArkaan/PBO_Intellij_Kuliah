@@ -10,7 +10,7 @@ public class MainApp extends Application {
 
     private Stage primaryStage;
     private ObservableList<String[]> mahasiswaReports = FXCollections.observableArrayList();
-    private ObservableList<String> adminReports = FXCollections.observableArrayList();
+    private ObservableList<String[]> adminReports = FXCollections.observableArrayList();
 
     @Override
     public void start(Stage primaryStage) {
@@ -41,23 +41,29 @@ public class MainApp extends Application {
     // Method untuk menambahkan laporan dari MahasiswaDashboard
     public void addReport(String[] report) {
         mahasiswaReports.add(report);
-        // Format string untuk adminReports: "NamaBarang - Lokasi - Status"
-        String status = "Reported";
-        String adminReport = report[0] + " - " + report[2] + " - " + status;
-        adminReports.add(adminReport);
+        // langsung simpan sebagai array [nama, lokasi, status]
+        adminReports.add(new String[]{ report[0], report[2], "Reported" });
     }
 
     // Method untuk update status laporan di adminReports
-    public void updateAdminReportStatus(int index, String newStatus) {
-        if (index >= 0 && index < adminReports.size()) {
-            String oldReport = adminReports.get(index);
-            // Format: "NamaBarang - Lokasi - Status"
-            String[] parts = oldReport.split(" - ");
-            if (parts.length == 3) {
-                String updatedReport = parts[0] + " - " + parts[1] + " - " + newStatus;
-                adminReports.set(index, updatedReport);
+    public void updateAdminReportStatus(int idx, String newStatus) {
+        String[] old = adminReports.get(idx);
+        adminReports.set(idx, new String[]{ old[0], old[1], newStatus });
+    }
+
+    private ObservableList<String[]> mahasiswaData = FXCollections.observableArrayList();
+
+    public void setMahasiswaData(ObservableList<String[]> data) {
+        this.mahasiswaData = data;
+    }
+
+    public boolean checkMahasiswaLogin(String nama, String nim) {
+        for (String[] mhs : mahasiswaData) {
+            if (mhs[0].equalsIgnoreCase(nama) && mhs[1].equals(nim)) {
+                return true;
             }
         }
+        return false;
     }
 
     public static void main(String[] args) {

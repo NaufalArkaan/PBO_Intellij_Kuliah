@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0468b95b-baea-444a-8cdf-73186b1c0d85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/praktikum/gui/AdminDashboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/praktikum/gui/LoginPane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/praktikum/gui/MahasiswaDashboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/praktikum/gui/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/praktikum/gui/TestAja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tugas_Modul5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tugas_Modul5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tugas_Modul5/src/com/praktikum/data/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tugas_Modul5/src/com/praktikum/data/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tugas_Modul5/src/com/praktikum/main/LoginSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tugas_Modul5/src/com/praktikum/main/LoginSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tugas_Modul5/src/com/praktikum/users/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tugas_Modul5/src/com/praktikum/users/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/praktikum/gui/AdminDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/praktikum/gui/AdminDashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/praktikum/gui/LoginPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/praktikum/gui/LoginPane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/praktikum/gui/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/praktikum/gui/MainApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
