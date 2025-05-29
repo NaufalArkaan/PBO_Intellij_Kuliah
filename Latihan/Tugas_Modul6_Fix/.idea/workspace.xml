@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0468b95b-baea-444a-8cdf-73186b1c0d85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Tugas_Modul6_Fix/src/com/praktikum/data/DataStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tugas_Modul6_Fix/src/com/praktikum/gui/AdminDashboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tugas_Modul6_Fix/src/com/praktikum/gui/LoginPane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tugas_Modul6_Fix/src/com/praktikum/gui/MahasiswaDashboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tugas_Modul6_Fix/src/com/praktikum/gui/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/praktikum/data/DataStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/praktikum/gui/AdminDashboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/praktikum/gui/LoginPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/praktikum/gui/MahasiswaDashboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/praktikum/gui/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tugas_Modul6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tugas_Modul6/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +34,12 @@
     &quot;assignee&quot;: &quot;NaufalArkaan&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/NaufalArkaan/PBO_Intellij_Kuliah.git&quot;,
-    &quot;accountId&quot;: &quot;0cf7c734-5805-475b-b012-0101953902e9&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/NaufalArkaan/PBO_Intellij_Kuliah.git",
+    "accountId": "0cf7c734-5805-475b-b012-0101953902e9"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -53,7 +53,6 @@
   "keyToString": {
     "Application.LoginSystem.executor": "Run",
     "Application.MainApp.executor": "Run",
-    "Application.TestAja.executor": "Run",
     "Application.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -83,14 +82,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAja" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.praktikum.gui.TestAja" />
-      <module name="Tugas_PBO" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\openjfx-17.0.15_windows-x64_bin-sdk\javafx-sdk-17.0.15\lib&quot; --add-modules javafx.controls,javafx.fxml" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.praktikum.users.test" />
       <module name="Tugas_PBO" />
@@ -106,7 +97,6 @@
     </configuration>
     <list>
       <item itemvalue="Application.MainApp" />
-      <item itemvalue="Application.TestAja" />
       <item itemvalue="Application.LoginSystem" />
       <item itemvalue="Application.test" />
     </list>
