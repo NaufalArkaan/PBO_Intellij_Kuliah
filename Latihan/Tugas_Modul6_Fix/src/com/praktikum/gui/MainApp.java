@@ -7,10 +7,9 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
 public class MainApp extends Application {
-
     private Stage primaryStage;
-    private ObservableList<String[]> mahasiswaReports = FXCollections.observableArrayList();
-    private ObservableList<String[]> adminReports = FXCollections.observableArrayList();
+    private final ObservableList<String[]> mahasiswaReports = FXCollections.observableArrayList();
+    private final ObservableList<String[]> adminReports = FXCollections.observableArrayList();
 
     @Override
     public void start(Stage primaryStage) {
@@ -38,14 +37,12 @@ public class MainApp extends Application {
         primaryStage.setScene(scene);
     }
 
-    // Method untuk menambahkan laporan dari MahasiswaDashboard
     public void addReport(String[] report) {
         mahasiswaReports.add(report);
         // langsung simpan sebagai array [nama, lokasi, status]
         adminReports.add(new String[]{ report[0], report[2], "Reported" });
     }
 
-    // Method untuk update status laporan di adminReports
     public void updateAdminReportStatus(int idx, String newStatus) {
         String[] old = adminReports.get(idx);
         adminReports.set(idx, new String[]{ old[0], old[1], newStatus });

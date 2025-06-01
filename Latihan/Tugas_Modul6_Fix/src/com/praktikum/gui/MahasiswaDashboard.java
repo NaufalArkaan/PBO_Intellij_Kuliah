@@ -5,14 +5,13 @@ import javafx.scene.control.*;
 import javafx.scene.layout.VBox;
 import javafx.collections.ObservableList;
 import javafx.scene.layout.HBox;
-import javafx.scene.control.cell.PropertyValueFactory;
 import com.praktikum.data.DataStore;
 import java.util.*;
 
 public class MahasiswaDashboard extends VBox {
-    private MainApp mainApp;
-    private String username;
-    private ObservableList<String[]> mahasiswaReports;
+    private final MainApp mainApp;
+    private final String username;
+    private final ObservableList<String[]> mahasiswaReports;
 
     public MahasiswaDashboard(MainApp mainApp, String username, ObservableList<String[]> mahasiswaReports) {
         this.mainApp = mainApp;
@@ -35,7 +34,6 @@ public class MahasiswaDashboard extends VBox {
         itemLocationField.setPromptText("Lokasi Barang");
 
         Button reportButton = new Button("Laporkan");
-
         HBox hboxFields = new HBox(15, itemNameField, itemDescField, itemLocationField, reportButton);
 
         TableView<String[]> reportTable = new TableView<>();

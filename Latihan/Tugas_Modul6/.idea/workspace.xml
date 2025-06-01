@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0468b95b-baea-444a-8cdf-73186b1c0d85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Tugas_Modul6_Fix/src/com/praktikum/data/DataStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tugas_Modul6_Fix/src/com/praktikum/gui/AdminDashboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tugas_Modul6_Fix/src/com/praktikum/gui/LoginPane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tugas_Modul6_Fix/src/com/praktikum/gui/MahasiswaDashboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tugas_Modul6_Fix/src/com/praktikum/gui/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0468b95b-baea-444a-8cdf-73186b1c0d85" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

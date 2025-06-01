@@ -8,7 +8,7 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 
 public class AdminDashboard extends VBox {
-    private MainApp mainApp;
+    private final MainApp mainApp;
 
     public AdminDashboard(MainApp mainApp, ObservableList<String[]> adminReports) {
         this.mainApp = mainApp;
@@ -17,17 +17,12 @@ public class AdminDashboard extends VBox {
         this.setSpacing(10);
 
         Label welcomeLabel = new Label("Halo, Administrator admin");
-
-        //---------------------------------
-        // LEFT: Laporan Barang
-        //---------------------------------
         Label laporanLabel = new Label("Laporan Barang");
-
-        // kalau memang mau ListView + TableView, tapi biasanya cukup TableView saja
         ObservableList<String[]> laporanData = FXCollections.observableArrayList(
                 new String[]{"Dompet", "Kelas B101", "Belum Diambil"},
                 new String[]{"Kunci", "Parkiran", "Belum Diambil"}
         );
+
         TableView<String[]> laporanTable = new TableView<>(adminReports);
         laporanTable.setPrefSize(400, 300);
 
@@ -55,10 +50,6 @@ public class AdminDashboard extends VBox {
         VBox leftBox = new VBox(5, laporanLabel, laporanTable, markClaimedBtn);
         leftBox.setPadding(new Insets(0, 10, 0, 0));
 
-
-        //---------------------------------
-        // RIGHT: Data Mahasiswa
-        //---------------------------------
         Label mhsLabel = new Label("Data Mahasiswa");
 
         ObservableList<String[]> mahasiswaData = FXCollections.observableArrayList(
@@ -106,19 +97,11 @@ public class AdminDashboard extends VBox {
         VBox rightBox = new VBox(5, mhsLabel, mhsTable, mhsInputBox);
         rightBox.setPadding(new Insets(0, 0, 0, 10));
 
-
-        //---------------------------------
-        // Gabungkan kiri+kanan jadi horizontal
-        //---------------------------------
         HBox mainContent = new HBox(10, leftBox, rightBox);
 
-        //---------------------------------
-        // Tombol Logout dan Welcome
-        //---------------------------------
         Button logoutBtn = new Button("Logout");
         logoutBtn.setOnAction(e -> mainApp.showLoginPane());
 
-        // Tambahkan semua ke root VBox
         this.getChildren().addAll(
                 welcomeLabel,
                 mainContent,

@@ -6,16 +6,13 @@ import javafx.scene.control.*;
 import javafx.scene.layout.VBox;
 
 public class LoginPane extends VBox {
-    private MainApp mainApp;
+    private final MainApp mainApp;
 
     public LoginPane(MainApp mainApp) {
         this.mainApp = mainApp;
 
-        // Atur padding dan jarak antar elemen
         this.setPadding(new Insets(20));
         this.setSpacing(10);
-
-        // Atur alignment semua anak VBox ke tengah
         this.setAlignment(Pos.CENTER);
 
         Label label = new Label("Login Sistem Lost & Found");
