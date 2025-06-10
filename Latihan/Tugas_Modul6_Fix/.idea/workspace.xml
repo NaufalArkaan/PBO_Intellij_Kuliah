@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0468b95b-baea-444a-8cdf-73186b1c0d85" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Tugas_Modul6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tugas_Modul6/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/praktikum/data/DataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/praktikum/data/DataStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/praktikum/gui/AdminDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/praktikum/gui/AdminDashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/praktikum/gui/LoginPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/praktikum/gui/LoginPane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/praktikum/gui/MahasiswaDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/praktikum/gui/MahasiswaDashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/praktikum/gui/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/praktikum/gui/MainApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +54,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Naufal/OneDrive/Desktop/Final_Project_PBO/Final_Project_PBO_Team-Dash",
+    "last_opened_file_path": "C:/Users/Naufal/OneDrive/Desktop/pbo_b_nopal/Tugas/Tugas_PBO",
     "onboarding.tips.debug.path": "C:/Users/Naufal/OneDrive/Desktop/pbo_b_nopal/Tugas/Tugas_PBO/src/Main.java",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
@@ -97,8 +91,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MainApp" />
       <item itemvalue="Application.LoginSystem" />
+      <item itemvalue="Application.MainApp" />
       <item itemvalue="Application.test" />
     </list>
     <recent_temporary>
