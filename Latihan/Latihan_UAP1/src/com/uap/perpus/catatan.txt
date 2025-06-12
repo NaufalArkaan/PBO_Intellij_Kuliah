@@ -1,0 +1,8 @@
+ctrl + N = cari class
+ctrl + alt + panah kiri = balik ke halaman sebelumnya
+ctrl + d = duplikasi baris
+ctrl + y = hapus baris
+ctrl + alt + o = optimize import
+alt = enter = quick fix
+ctrl + R = ganti text
+ctrl + spasi = auto complete code
